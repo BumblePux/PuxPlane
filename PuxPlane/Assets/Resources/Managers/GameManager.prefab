@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8912129624934988695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8912129624934988689}
+  - component: {fileID: 8912129624934988688}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8912129624934988689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912129624934988695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8912129624934988688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912129624934988695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acd58be98ecfe0a4a97fd2885bab4c52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 1
+  mapThemes:
+  - name: Grass
+    backgroundTint: {r: 1, g: 1, b: 1, a: 1}
+    ground: {fileID: 21300000, guid: fd2e5c6a1aa3b8746ae4e89f1d21ceb1, type: 3}
+    rock: {fileID: 21300000, guid: 9b3e2662955583c4bbb42b8bed1d644a, type: 3}
+    rockDown: {fileID: 21300000, guid: 1d8a105e21ca91b4ba705431c45e23d7, type: 3}
+  - name: Cave
+    backgroundTint: {r: 0.5283019, g: 0.45593727, b: 0.39124244, a: 1}
+    ground: {fileID: 21300000, guid: 8a10cf7c7ebdded4499d7571714545f6, type: 3}
+    rock: {fileID: 21300000, guid: 83054ae2e3fbb924a8ecb7a21491954e, type: 3}
+    rockDown: {fileID: 21300000, guid: 6244b5de0797cab41b6035b41b3c8f8b, type: 3}
+  - name: Snow
+    backgroundTint: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
+    ground: {fileID: 21300000, guid: 29aac6954177f5a48825d5da86e9e48f, type: 3}
+    rock: {fileID: 21300000, guid: d8fce9423443d0642ba59f07ab12efcb, type: 3}
+    rockDown: {fileID: 21300000, guid: d556f8b62f73f3149a000a23d91ff669, type: 3}
+  - name: Ice
+    backgroundTint: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
+    ground: {fileID: 21300000, guid: 263c777e74392e442847411d4c7d41f9, type: 3}
+    rock: {fileID: 21300000, guid: ccbc5dc4cbb42a942b4772fce2df33bf, type: 3}
+    rockDown: {fileID: 21300000, guid: e70e64231a23fd2459cc351a551ede5c, type: 3}
+  planeColours:
+  - name: Red
+    planeAnimColour: {fileID: 22100000, guid: 3ec4f50b0c086e64faf9e8dd08f5f31a, type: 2}
+  - name: Blue
+    planeAnimColour: {fileID: 22100000, guid: 67957db194c22d744870b2df1bf01140, type: 2}
+  - name: Green
+    planeAnimColour: {fileID: 22100000, guid: 360237f90a27fcf49bc24c8806c99736, type: 2}
+  - name: Yellow
+    planeAnimColour: {fileID: 22100000, guid: 519e2a91fd165e14d8c6442701139b3a, type: 2}
